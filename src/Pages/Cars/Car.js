@@ -15,10 +15,10 @@ export const Car = ({ product, onAddToCart }) => {
       <CardMedia className={classes.media} image={product.image.url} title={product.name} />
       <CardContent>
         <div className='classes.cardContent'>
-          <Typography className={classes.name} variant='h5'>
+          <Typography className={classes.name} variant='h5' style={{overflowY: 'hidden'}}>
             {product.name}
           </Typography>
-          <Typography className={classes.price} variant='h5'>
+          <Typography className={classes.price} variant='h5' style={{overflowY: 'hidden'}}>
             {product.price.formatted_with_symbol}
           </Typography>
         </div>

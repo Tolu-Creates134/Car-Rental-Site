@@ -15,10 +15,10 @@ export const Cars = ({products, onAddToCart}) => {
     <div className='cars-page'>
       
 
-      <Typography className={classes.title} variant='h5' align='center' pt={3}>
+      <Typography className={classes.title} variant='h5' align='center' pt={3} style={{overflowY: 'hidden'}}>
         BEST CARS
       </Typography>
-      <Typography className={classes.title} variant='h3' align='center'>
+      <Typography className={classes.title} variant='h3' align='center' style={{overflowY: 'hidden'}}>
         <strong>Explore Out Top Deals<br></br>From Top Rated Dealers</strong>
       </Typography>
 
